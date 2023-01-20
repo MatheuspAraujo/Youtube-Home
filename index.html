@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="img/youtube-logo.png" alt="logo" class="youtube-logo">
+        </a>
+
+        <form class="search-bar">
+            <input class="search-input" type="search" placeholder="Pesquisar" aria-label="Search">
+
+            <button type="submit" class="search-btn">
+                <img src="img/search.png" alt="lupa">
+            </button>
+        </form>
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="img/microphone 1.png" id="responsivel" alt="microphone">
+            </a>
+
+            <a href="#">
+                <img src="img/Upload arrow.png" alt="upload">
+            </a>
+
+            <a href="#">
+                <img src="img/Vector.png" alt="Notification">
+            </a>
+
+            <a href="#">
+                <img class="menu-profile-icon" src="img/perfil.png" alt="profile">
+            </a>
+        </div>
+    </header>
+
+    <div class="categories">
+        <section class="category-section">
+            <button class="category active">Tudo</button>
+            <button class="category">Games</button>
+            <button class="category">Programação</button>
+            <button class="category">Música</button>
+            <button class="category">Documentarios</button>
+            <button class="category">Filmes</button>
+            <button class="category">LiveStreams</button>
+            <button class="category" id="responsivo">Desenhos</button>
+            <button class="category" id="responsivo">Vlogs</button>
+            <button class="category" id="responsivo">Outros</button>
+        </section>
+    </div>
+
+    <!-- 1 Aba de videos-->
+
+    <div class="videos">
+        <section class="video-section">
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="17:58">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/c9Fqkftf7OA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLB8A2w12zORTHXPjzzz4UPOKWQIRA" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/iBbTNwM1k3By3cdKwkxEY6Jsy59QrqnL48qrU9Q2hK0aZIsQLSXW2HWHHatzMFGQi7cVsmLR9LQ=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">O MOTIVO DE TER VOLTADO * LAMBORGHINI HURACAN...</a>
+                        <a href="#" class="video-channel-name">BRIAN ESPI</a>
+
+                        <div class="video-metadata">
+                            <span>1.5 mi visualizações</span>
+                            :
+                            <span>há 7 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="1:44">
+                    <img class="thumbnail-image" src="https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2022/12/NEWS_15conquista.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu9R_Vr1IizEE22gjbMYA12AOQ9ethufOIA8zKddmQ=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">MUITO OBRIGADO, 2022!</a>
+                        <a href="#" class="video-channel-name">TV Palmeiras/FAM</a>
+
+                        <div class="video-metadata">
+                            <span>573 mil visualizações</span>
+                            :
+                            <span>há 1 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="7:26">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/ymOYxge70Mc/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://camo.githubusercontent.com/d8c497a4d2fb61ba1860e253d32713474fa63ae538d4a9d2ada45431af37ff74/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3633393935363132373035363133343137382f3839303337333437383938383031333632382f5075626c696361636f65735f496e7374616772616d5f315f312e706e673f77696474683d363736266865696768743d363736" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">É possivel prgramar com HTML e CSS? São linguagens de...</a>
+                        <a href="#" class="video-channel-name">Rafaella Ballerini</a>
+
+                        <div class="video-metadata">
+                            <span>5,7 mil visualizações</span>
+                            <span>há 1 mes</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="49:24">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/k9OgOYwX2_0/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu9n0vs6qnjS5blfbJtSEBlFUvLdPSlq1zlav__4tA=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">PRIMEIRA VEZ NA ESTRADA GOLF GTI DA NASA DE 450CV!!🔥🚀50...</a>
+                        <a href="#" class="video-channel-name">PetroHead</a>
+
+                        <div class="video-metadata">
+                            <span>384 mil visualizações</span>
+                            <span>há 11 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="19:15">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/xcAI3cjCV1g/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/AMLnZu-k0cO1VVPShM-VR3KTYlQrjQOSRxl3Fyu49ZP41g=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">PS5 "GOD OF WAR RAGNARÖK" Console Unboxing! (PlayStation 5) + PS4...</a>
+                        <a href="#" class="video-channel-name">TheRelaxingEnd</a>
+
+                        <div class="video-metadata">
+                            <span>1.8 mi visualizações</span>
+                            <span>há 2 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="11:28">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/jhLDjrpuT0M/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://static.wikia.nocookie.net/youtube/images/4/4e/Artology.png/revision/latest?cb=20190818070753" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Drawing Kratos (God of War Ragnarok) - Time-lapse...</a>
+                        <a href="#" class="video-channel-name">Artology</a>
+
+                        <div class="video-metadata">
+                            <span>1 mi visualizações</span>
+                            <span>há 3 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="29:37">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/wwqzR3GgkSY/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/ppZ28qg8LnJXKomoTvhceEV7Xd-VSEPHOMtX6hC8p6BV7LmMpNAnjFa-ihrjPKOf0sLzNs_Yz-w=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Quando Um Sniper Solo Com 3000 Horas Joga FULL PVP No DayZ</a>
+                        <a href="#" class="video-channel-name">pepers</a>
+
+                        <div class="video-metadata">
+                            <span>368 mil visualizações</span>
+                            <span>há 3 semanas</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+            
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="21:17">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/Zlx62C82FTU/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://i.playboard.app/p/AATXAJzQIF3_YbKcfIsDoROwCuKtymmC1imgrGWjJQ5AsQ/default.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Coberturas incrivelmente generosas! Hambúrgueres caseiro...</a>
+                        <a href="#" class="video-channel-name">찐푸드 JJin Food</a>
+
+                        <div class="video-metadata">
+                            <span>5.9 mi visualizações</span>
+                            <span>há 7 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            
+        </section>
+    </div>
+
+
+    <!--Aba Shorts-->
+
+
+    <div class="shorts">
+        <a href="#">
+            <img src="img/shorts logo.png" alt="logo" class="youtube-shorts-logo">
+        </a>
+    
+        <section class="videos-shorts">
+            <artigo class="container-shorts">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/pN7h4ZzRdxc/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDe1VFZALWUfTmuCYum86EcCxNM0w" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">OS DETALHES REALISTA DE RED...</a>
+
+                    <div class="shorts-metadata">
+                        <span>1 mi visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/P4NpPNMFBoQ/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBQ5Zeyk1cM7O8OYzz-mBMVJOpOHw" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">THOMAS SHELBY - PAZ, ENFIM!</a>
+
+                    <div class="shorts-metadata">
+                        <span>3 mi visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/FDk3ElboYo4/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLD-RhYfZEFQgxbZ7Qg5FAzPZGByBA" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">O GRANDE PROBLEMA da série...</a>
+
+                    <div class="shorts-metadata">
+                        <span>50 mil visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/FbWAcM5NFOM/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCvD_jUME3t4okijWJygi_hiYZJYA" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">Old Kratos vs Young Kratos #shorts</a>
+
+                    <div class="shorts-metadata">
+                        <span>564 mil visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts" id="responsivo">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/mARUP6eBf4Q/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBxQVlIgJ0y7bcALjDmgms-480SNA" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">FERRARI F12 TDF COLD START 😬👊🏼🚀</a>
+
+                    <div class="shorts-metadata">
+                        <span>100 mil visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts" id="responsivo">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/VK2bBVvUQtE/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLC6VBL9cw1pRO1b6n3fkLXEWwWswg" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">OS DETALHES REALISTA EM RED...</a>
+
+                    <div class="shorts-metadata">
+                        <span>906 mil visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+
+            <artigo class="container-shorts" id="responsivo">
+                <a href="#" class="thumbnail-shorts">
+                    <img class="thumbnail-image-shorts" src="https://i.ytimg.com/vi/LA-Kq-Vw47Q/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCAsgSDe8C6t3NmD0DEz75WwNgeXg" alt="">
+                </a>
+
+                <div class="shorts-details">
+                    <a href="#" class="shorts-title">Extreme gaming setup: 3x Odyssey...</a>
+
+                    <div class="shorts-metadata">
+                        <span>7,8 mil visualizações</span>
+                    </div>
+                </div>
+            </artigo>
+        </section>
+    </div>
+
+
+    <!--Aba em alta-->
+
+
+    <div class="videos">
+        <p class="categoria-de-videos">Em alta</p>
+
+        <section class="video-section-categoria">
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="6:21">
+                    <img class="thumbnail-image" src="https://a3.espncdn.com/combiner/i?img=%2Fmedia%2Fimages%2F2023%2F0108%2FHu_230108_BR_futebol_laliga_atletico_de_madrid_x_barcelona_tr_mm_finalgamehighlight%2FHu_230108_BR_futebol_laliga_atletico_de_madrid_x_barcelona_tr_mm_finalgamehighlight.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://i1.sndcdn.com/avatars-000272002276-whtyc2-t500x500.jpg" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">BARCELONA SEGURA PRESSÃO DO ATLÉTICO DE...</a>
+                        <a href="#" class="video-channel-name">ESPN Brasil</a>
+
+                        <div class="video-metadata">
+                            <span>580 mil visualizações</span>
+                            :
+                            <span>há 1 dia</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="25:44">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/JzUwut1ssyc/maxresdefault.jpg?v=63bb271f" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/Vf10e-D4thmF9RD6c9vYxi_5Q-Ex33_LAiGe1XDI6kvdJ5b7-mSRKhE5ARssob4pfdohpfd7lg=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">SERÁ QUE O OPALA VAI ANDAR???</a>
+                        <a href="#" class="video-channel-name">Project Car Brasil</a>
+
+                        <div class="video-metadata">
+                            <span>166 mil visualizações</span>
+                            :
+                            <span>há 1 dia</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="4:07">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/R1WAEflvGvo/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/jrllnud87jiaeP4XYMBHpL9rV53SCK2p6X0GQdnsEiEQPvUgMz8EirG-I8nZ-kOeKMxxSDnbrw=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Djonga - penumbra feat. Sarah Guedes & Rapaz do...</a>
+                        <a href="#" class="video-channel-name">Djonga</a>
+
+                        <div class="video-metadata">
+                            <span>306 mil visualizações</span>
+                            <span>há 22 horas</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="22:24">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/6K_9_6tETVI/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQVFBcVFRUXGBcZGR4ZHBoaGSEaIR4jIx0dGR0iHhogIiwjHSApHhodJDYlKS0vMzM1HSI4PjgyPSwyMy8BCwsLDw4PHRISHTIqIikyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBQMGAAIHAQj/xABIEAACAQIEAwYDBQQGCQMFAAABAhEAAwQSITEFQVEGEyJhcYEykaEUUrHB8AdCctEjM2KCkuEVFkNTk6Ky0vE0VOIXJTV0g//EABoBAAIDAQEAAAAAAAAAAAAAAAECAAMEBQb/xAAsEQACAgICAgECBQQDAAAAAAAAAQIRAyESMQRBURNxBSIyYZEzQoGxFBUj/9oADAMBAAIRAxEAPwClY5bWGfKCr3FWMvxIpP3id2jkOtL+KcYuXwqMiKF+6D+Z0Guwr3hNtGVluWc4JBDhspGoGWTprqeXnIqdOzrtmZfgUBpbRiNJhdRoecxEEdKqXGPfZXpdmlx4syhyqpASRqdYYyRz1kc450B3+ac51OsxvG2g0FNsTw4lFXxFwPAqiRpAk8gDrv0rw9mnW2WuJdW4TCJChYiQzOSYEzpudPWmUokQkZxvpMVtYbxAAZj02HnrXt7A3ECsUID5spJHiynK0a8jpNe4djbfMymIjpPodjtTOg0GW8C9wwRlgT6dPz1pvb4wLNpbL2xmylRcmTEloYbTrAkHSNOdA8dxNtGCWLgcRLuoIBJEQJOukT57bUkBJMUnDktgSsuWH4lgsty4cxuEABbirJGsDKDAMnXlHSIqCzi8K9tsyZboBdAmaGJgZGJ0QbdecHYVXMNbUzJ13FF4VAGiRqOn60pXBIjQPiWZmJYQSTp08h5VFBygawNh0q3cF7Pvi7kIjsy6NAhR0Jfb69Kv/Z79l9i2pOKi6xIMKSAsMGADAg8tSInajGV6SGSOR8J4LfxDFbVp7pG+RZA8mY6Lp1IqyP8As54kUB7kfwm6oO3rBPvXerGHS2uVFVR0URXrMKGSagrbGUbPmbHcHxOG0vWblqfvKQp9WEqdutJ7+HKRJBB5j8K+rbgVhDAMDuCJB9qpvHf2c4O+GNpe4c/c1T3tnQf3YqqPkwbojgcUwnH8RbtvbV5DKVlhmZQdDlPmNNZ8opdiMUzmWjQRoI/W81Z+0f7P8bg5Y2+9tD/aWgWgf2k+JfXUedVRhWlcfQrQdgcTbVSHDajcAH230ojDcWt23zC2x6SR+YihPtFoIoKSdJgx6n1qa7iLDJAt6wY1iDyM+X1pa2LRrxEWDleySJ0ZYIjnM7a7QKXka0ZgEWCXYAev50Wn2VBLjO4PhUA5TvMxuNudHlWiCgdeVHcKw9u5cUXbgtppmOvWImCBpuTUFzFeKQB6RA+mwqJjBnTnp60wToeFSzbbvO7tWrYlbbPcYk6TJEAOCNQZB1rXjnZsANcUhoBMEqDGw0ADb6E7D2qo3eNPcINwA5UKoq+AA6eJhBzHeRI5REUBb3OviOpNVrG7uwcWFY62hAKIQ37xLeXIGZNLyulTtjGK5TAGxIGpH66RWfY2I0B9KsTpbDZp9nHn8qyvfsz9H+Rr2jyRLG2I4mlo5LYV4/fIaJkgwp12jUGKivdobuR7aMQtyA4mRA1hZBIE+esazS7EXVLNAMEnL18pofTQUiggJDLC8ZuWyWtsQSMpIOsSDpvlOm4ou12hfQvbW4w3ZmYk+vU+dISI0qS3+hUcIv0GiwpxwXLga4ieAeDOpceQyr8I1JgaTyojBcIs37d1vtKW2tAMEuELm0mBJ1BPh01Gmh2qsLIMjfb9CtUaTr8zU4/BKCsRYQNq4HOBGny0oRhGgrysmKZaDQx4Uslj1AX5nX8BXRuw/YpcUe+vEi0pgKNC50kTyUSBpqTO0GuX2MQyghTE8+ft0r6S7B2O74dhRGptK58ywzknzk1XN09hS2PMFgrdpAlpFRBsqiBUPEsctpQXBykxI5afnReek17tDZW53ep1gsBoDQlljFDxg5dI34KzkXGOfIzeAOSSBrO+sTtXmM4taS4Ea6FPMRI922Wou0Vpzbz2y2YbhSfEPQbxv865/isJiGM905/uHy61jytS0zf4niRzW5SSOg8cFx7DdzDPowE6OAwJWf7Q096VcA49cu4g2fs163byT/SKfAw3AJGqnlPMedKex+Bvd9Nxbi20WcrSFLTC6HRiIY+Xyp1xvtMuHuC2ULaAkzET061icnBNRViS8Z/UcI7f7FmmaovbXsDh8SrXLKC1fEt4AALnky6DN0Pzqz8N4kl5A6HQ8tiDzBHWizdqqPnTxyplDxNOn2fL+I4bcQjMsA+Y+oBMHyrV8C4RnynKInyB206Gug9ubyYXGOpt5rbgXICqVIeZBB38QaOW1IuLcVTG32OQKotgKolRCzqVOzQd/TpXdxZJTSdaMrtOirJY8OYmAdqxrRiZ0/DzrV7Z0isS6QuU7frnV1EZhHI9dDWrb1IiHlrUZg0UE1M1sEPnFWjh3Z+xcsLcuXmtu8EQA4KyQRlUkg6RLRqdoFR8U4I1oOy27ncjLle5C5swkDTc+g23jek5q6C06srj6aR50fgeKG2ATbW4BM5idZPMjXSg3YQQRt0j9RWiNOh2pntbF9Dz/WZv9xY/wt/3VlLfsn9k/OspeKBSAalRMw5TXlhRmH0qZbZn4QT56RyphzTKIg8uf1rwIc2k6c6Z4fhly6ub91RA0J5wY8pEe1TNwgoNHzGYhf3ehYaxPrypeSFtCvu8oDGYn184qHEBJAUMNNZ6+XSm19nRAG1UGI6DUmPPX0oPF4PwhwQZ/X+VSMiWDYOwHYiYhSfwH51Pi+G3bQQ3LbIHkqSNGy6MARzEiam4U4LooQFgeWkxrvvOn0orjS3bjlrpJIAiSdFidBso8hQcmpUS9iu3YYgQDqYHmdtPevpbg+JFrCYdbgKMtm2Ch3BCAEEda4v+znFA8Qt5gvgS4VgfvBGg67eEtXTrlwkydTXM/EPIcGoo14MXNWxvf499xfc/yFKjxBh8IVf4VAoe5dpdi+KWrfxsAfu7n5DX6VzfqZMnybI4ox6Gj8RuHd2+ZqFsY/32+ZqtXO0gOiW3jqYH5k0O/HLnK2P8X/xqxYMrDS+C2Lj7g2c/M1seIudGIYdGAb8apJ4/eH+yUj+M/wDbWy9pgvx23XqRDAfgfpVn/EyLYLRe8BxJLcxbVcx1yiJ9hp9Kb2eI232MHof51QMHxi3c0VwT906H/CdaPW6DWXJgd/mA4p7En7Yhlew0fHaZZn7rBvf465ozTXZ8dhUxlo4e5s3wPztv+6wPSdCOYNcYNsgkEbEg+RGh+td3wJp4lH2jBmg4yPULyBOnnypvgMEjfE3hHODJMyOVJJI2O/8A5r1LrCQpIzaEDn+vzrZKLa0UNFqwIsuSoueJT4cxgE/y2HtSPiqXFv3BcKl5klYgyAQRHkR+etZh8AzlQJkxpt9TpFO+Jdn+6tozhVclpthjIAAIczsCSdp29qRNRfYEhda4kqWtGm5EAZdtdyecCOtGjtc9yytm+udLa5UygSPEG3J3GWOkGIpHhMEbh32GsCfw2qR+H5XCk7zyjblH5ijUQ6BL9zMzMNAzEgdAdhp5VrsdTI8qMs4UFspYDprQuIQCMpLCNdIp010Q17wf2vpWVDWUdBout/AYO4O7t2fsxGRRfvXm6iXyLmDMTIgbT/ZoK7wHF2zeZ1lLUg3IhTBGqFgCd9ND9DR3D+I278h3NvIVYKW+LeMkAQQY0A50dinINxmxHfPbbQszXQGy5h3ec+IzpOsNWf6klpoXkUtrmYEAkAaxPTy2rbBYp1uSrawSZ1B9Z9N6O4pdvYi41y5bbvMij4CC48WVjpBJEbDWKB+xm2YuSrkAxBkSNiORirLRDTiGKe5cZ2PxxoNoAAHqIAoZXOoneir7plyKskfvbescyPXShVT9bUyoZHqXGUhgYYGQRy6UViuIXLpzOSSfiM6seZP4RtpQjLEdf0aN4LbDXrYYKQWA8RIAk7mN43jnUddkYdwi+cNdW+A0WyDtvPhI12kEj3rr5xSOi3EIKMocHyInX0/I1Q+I8KwiEo+IAYQwQk5jPw+EwNRrHLemPaw3beHwtm2FRLiuDkYPoHJjOANIYaCuX5WH6zj6Zp8XJxtMH4p2na4SljQbd4dZ/gG3uf8AOgrWH5nU8ydST5mieG8HyiT7UwfCxVixRgqSNqbe2LharwpFGtYNRm3TUEEdKiNqaYG0TXi4Y9KNAFl/Bow21rS3xa7h2GYm5b5g/Evmrbn0PTlTNrVQYvBZ0I8qPFS1IWSLDwrFrcAuW/EvxCN9BMevKK5jdw4doBLM/igTmJbXRYnntTfs+DaxaeJlTVmImAFGckgb6KanxL2hcFx7iiYK+CMoERGpJ+U7maGLH9KTS9mPyZ2kVcYM6hjDgxBBHSh3Qirjj7WEz+HELcN0ZiANFJOYSxAg7GDVWugq7WyVOUxIIYGOhGhrbGVozJ2HcH4jeF20bZXOnwyoM8jIiT4Tyg89xNWjiPe2bjXftQ+03DmysqeGTqVDSEAXRZBMDSKoKkgypIIOhGn/AINSDFPrJLFokkyfmdaDjfQGizJwe9bM3SbTPqCbiICNc0htCRP1HWgFxdte8W6WuFVItmSJYGFZTBgac9w1BYjjV90to9wsttSEBHw7azuToNT0FLySTJJJqKHyTiEYq4rmQI2EQBy30/Rra1Gkjly3151DbtkmeX650QtlliGII31H0686ZhN8vrWVplb/AHh/xCspQB74vDd4hFrwwAVBKKTBBLc5mNulT4XjCKwXa2JABGb+EzyAaDpG1VotU+HSdY0XUjqeQ94+QNRxvsLiX7E8Za20OBdGVWDFyYMDKWMTtHkOpmq7xTH3GYs5tt3njDKBAiOQ30Amd+pqTB3Ee2FuXCrwdpynxsBPLSIiNqBvWSgJdBAnUaa77rA103BpIpJ0BIXO5+I69a8fSMsEeg+tS5Z+AECZ1g+fIcqjSyzHQGSYHn51aOeKT0mNz0qUXMuVkLK4aQQYj0ozD4F42G+vTy9t+W9RY/DKimTDEiFHQ6knyj60toWwG7dZizMxLMSWJJJJJkkk6kk10H9nt3vbdy05zLbZXQHXLmWGjovhGg6VRuHcOuX7i2rSF3fRVHOBJ12AABJNdB7HcAxeCv3FvWwquqiZDg6mCpWdBOsxEihkqi/EvzWW/H8PCQdkj5VWuK8VRNFUsRXRMXbzWyAM2m0j8dq53jsAGuZe/sBifgUtcb0GRSoPqTWZNL9Rucl0hF/rGQRmtmPXX5Uzw3EUfqKVY3hd3ObaKtxh+6t22X8pttlYz0FecItsbhturIymGVgVYeqnUTVrUWrQkZSTplh70RS3E8ct2zBk+gojHW8qGqdicWufxTvGg1mhGNhnKizYfjdt+o9RTbDsrAEVWrGHuZc62b0ASc9pl08myx5074QytqDrzH8xUkkBSbEvH7vcs7KJ0A9mZZ+e1VDE4k3HLHnVw7WhZYNscvtzmqjftorQrZ1gQ0EbgFhB6NI84mrYVRjyfqIWMmvAPrU9pMw0EwNvKYq4cJ4ZZa0ohM4WXFwrBO5IJGoMbcpijKXEpbSKQD5+VG8LwJu3Vt5sik+K5lLBBzYheQ/GrjiOHJinS2hVDbGRFQKo1JIzaT5CT15aUu+0Gwga0yRcJVoUgyoU5WDbgZtDtqelBZLWgchTxPgzWigV8+fMfhKZQGKKTm08UE6E6UDhrIPxGNdNN/Xz5im68VXKwuL3jkkA5dQpA1BBEMPlt6VHj3tyrp4VYAiZImOhMwR186ilL2S2aYDhbtLASiESNgd/LQCNSdKmGAuXCJRlK6nQECYiDOug21IrW9cYIAXzA/DlEecHnEzua1wzshXu3ZLm7ZnGXU766COh1051HYNhX+iF+8v+EVlNsnE/95b/AOKv86ylsm/kpVrCMzqgABZgoJMCSY1OwpxxDgzWFS21y07lyGS2+cg7DMYCrpsJnVtBTbg11SBKLFwfAy51MEjyMGIp1wvgFp+8N1rguTmhFlV0JlQp2kxqIkHfQ0HNph5FVtcLVlyFmLL+4i6tJzR0UeKJMSZ15Vrhsd3bvZvAqFzJ4viAggBiDBMGPOiuOvcsIETvE7wy7aoxI1CyDqBJM7D3qu27cwxG/XX389adbVsiIlciCDqoHz3n60S9827pKsVHXfQ67fSsfBloygAR5/oV7icKwUMwgwNPQkGmtMa0QvirjGcx0100/CKKRmuakyRA8Wpj05DzpY3SKmwtw23DxMGYmJ96jj8EotvYm0UvXHje04nzlXP0U1fcMxcKrFtR4WBIKyQNCDI9Odct4PxopfW4xhAYZQABlPgbzMK5PsK63hsOFfD231UAa8miWGvrHzrLkUlKzq+LOLwuLRLxe05sEs5ZLUllcZj8StOY7qFzD0NVLE5bUlAy+HdJnzBg6jY/Kug41CQ2gIIhlImdZqqXuEoHEXMtsnVSfEo5BWbRgdPMf2t6pyK9sWpRdopeHsNibjZVi3bYszkQJOpJ03JnTU61YuCcRZri2mPeWpyqH1ZYzHMjRKiANJpnxu2O7Fu0CF2gAjT0Iknz9aW4HBBGCsSpYHMvPJBlS26sxy7agKdpqnHknN3VIulxar2O1wuDuC4SxuMhP9Gt1dQNZ8Pi20OvWl9ri9tQFshLSlZi3p8yoDE+rGtL1i0CGtqEdCChGmo2HmDsfKlxwik5lhbZOjHSAeX8Q2y7yKbyebWn/AsEoO3v7hdziIdl3bzO/wDl86lt4klwJ+IwQeQykiCdQRH86CuhLboi23ulkzQJHPbKPETy0A50xGFgi42RXClRbBzMCSMzNvlAUEATPibnVXj45KXIGWfJ0gXG2LffG4qM4ChYusrLG5ORUgnUiCY0BqmdscPbD27lu2tsvmDKghSVIhgo2JzQY00+d5b94HfKSPrP1FUPtZcDXQvK2kH+Iksw9QCB7Gunjk3IqywhHF+4hDwNNOU1tGmXcfT5VGFJ096nwlnM6qTALAHrHOJ8pq5nOZLg7zoCUYqSIldNK3tyoUZSDuD5ajSi2xVu0y5AGII1iY6xO5jStuMY/D3rZaIuiMpCkAxEg6dJ3pU230KKWvSZOv09KlwSNcOXUhRPpJA/GgvStw7A6EjloSPw5U9aGoZ2kspmzXPEBoI3Ov7w000kUPibyGMmgiDI1oMg1ubZoKIKMzjy+Q/lWV5kNZUpEpDW2962kq7qrMU0I3gmInMvPl1rRuJ3DYa1M5nUs0mYUMoB6/EDr0onjPHlxGYm0FZlVRB0EKBm0AkyCY86R211GnOhFfJK+Ql7117YQszKDKg6x6c6HV20EkeVNBgLjKGUGIMQZkCl122QQT5eKitkTsJF4tpseUEifI66z+udFWgtxEU5pUSdNPiIE6zJP4UpAHKZj9fSnmBwr5UuMSsgwABLwx2J0Tbdo22NLKqI0DcRwgVFZSsSZjcdM3SeQNLzhmWS4iOvP0HTz2p7xUXkCK6m2rSSdST5F9gd9gPzpRjc0jaCF8QHkN/P1oweiLoHC6a13/8AZ3jBiMDbdmBdP6Jpg6poG8iUKmuGDCkQCoUkaSdW03C8hp5TNNOCceu4QOllis7hvEpIEAxyPLSOVCWy3HOmdxxTZWPSq9xa3MkaT+tKL4BxE4rCWbzRmZPFH3lJVvqK2xVjMDPKsjTUqOrF3FMpgwdy5cCJIkx0ori3Bu4YKtxHKgaAgGecgnQz50RjsV9nJdZldiOXKqmuOzMWuMRJJ8WZZ5znIjXrNWRVgbp2MzbdxqCK1S3cU/Gddwdj6g6E+dL7uMtgeC6p6AEsfkAT77Uw4dxQXRlM5hzIg+80XHWwckxnZZyILkDovhHyWAfepwIFRpWzNz5DWlJJJI94g4s2mvtqFX84UAcyzNHvXLcZjA8+HVjJYnnMnSr1xzHNibIsoujFSZInQjKAs6671Ue0PA7mFuBLikTqCVK9JA5GJFW4+Jg8jIpPihUsyPM0RctgEnkR9I1ocMR7U2w+MAGcKC3IEwATBnTerZaMzFbqOWgFad3pI+dFdwM8aHnptvtHKDyrfvdQoUxMCP1rrUslgKIfU8gOf60pueEgDVgSRoNZny6+pj12oNEAYEGGUgwY0IM7c9h9a3tcRcXO8aD+6REAjpp+tOdB2+iMIuYHIraA5RrBkg7+24pa2JJERGkeZ96epw65ic2IIRFYwgLqubKAsLm32Gp3M7VPg+yV69oqFZ+EsGAnLmgMFg/h50FJLtgToqsisqy/6i4//c/8w/nWU3NB5IryISdBT3h2CQWe9YEkuVUEaNH7sbkzJPKIp2/D8LYR1Nt2ui3mkOCquyqqozFgYzeJlykwd6E4fw+++GuBbdn99g1xgrAENmNtTC5tIBknbypHPl0BuxZd47cckKFQgEyJJMRJgkgeEGABypdaugyHzRKxliZ8XLYzm29K8w1hmdVHNlWemY5RP4VPewjWkGaAzAEfwmQG/vQY1mnVDUjW7a7sZkIeJGYD4fLKdQf7W3TrTXhvFFWzALDKwJG4YlToYOzFIkwNdfOvpI25fSm/D7K5SxBIcZSsHkwYa89QDv8AnIklWwMYYvtdcu4ZsO9ixlZgQ4U5lgyNSSJ5SRsTpQeDuWg0kDNlMMTC6aiBm310JIGmwqS5gkIN1ragZguRGIiRvsCfM6RI8zQyYQiQJVZmNSSJPwnaRPX50NdIH2NsQoIYlbWssCq+Kd+uvQ786Sq0eVOxaRdgwBGocAHNsCAOUSDy2oW/hNfDzj5EgH5TNFMKOjfssxk4a7bnS3cBHo6gn/mUn3q14m4BIrnv7KbsYi/bI+OyHA80cA/9Zq8Yu6KyZVUzr+PK4Ce+RnJImgcXdHkV6GnBsBzpWuI4Pbykv+NCMi3orask+FFB6wKKS2gA0169TRaYC2p0FbPbAFPysDdka9KWdpcZ3eHcgwzQi++59hJpgHFV3tejMLQgxLMYiB8IE+mvI0cauRRnlUSoLi3BDB2kGQSSdduflTDH8dv30S3dYFLeqgCIO31A5QKXFROv4edEYbCG46oh8TGBPz16HSa06Oa0jeza7wFQmoGrb+XsdqOGE3GQqFGrwSFAGs+n5U4wvDMNYyXLxAJbTK/iOsEZecaEwOfKpu0OEwjYUXcNfYjOqG0z7yGMspJgqRsBEe1V8k2JdspFpyrDXY03wuGJTMCu0ySPhgSYmYB02ons7wK1dJN1vB8IKtHiOoOYjXwg6AGTvFWPjWFwdpbStmtWGz5cq5nVjqSwIzNEQDrGbzNSU0pJEZU7OCRmDKJU7AyAZGkjUzzC7mKNxfC2uJIYpatTLMGJJIBLBQuigc/WgcRxdQR3Ksqrs10h2ImRIAyjTlrua0wPaC/bYZXLDo2s++596amTYTw3i1q1YZGBd4ICwMrGWyMxO6iRpE+m9FcO7dYu1aNsBGIYOjspzW/FmOWCAQYiD9ar9wKDqu+tDzJgD0oqMd2FJFy/+pHEP96v+E/91ZVP+XzrKHCIaRfuJ8HXubd7ChgrOxe07CXJGX+jtyWaSWUBRMcqU8ZCHJYNp7F1Z7y2yMMxMAOSxkAiCBHPWdDVk4Zi8Ivd3EV1urKu1tQp2LZpYDLDQJzSYOnUbjeJDW+7KLkuXVIxDsCdZIBaMyiVk6meumtSYtplTwtvu7odGNxEJg5SMxEkLEnfwmDyM1qj5y1u6SySWVj4ShOuvRWkAqdtxsaKTFlmZjcVgRB8OQMBC7AbwIkazHWvLnC3uZVtA3C5GUCC3KLZ5aZiZ2McoIFqYUK8iSU7tlg+IZtuR1IM0Qt5rYPdmUJ1zKJBjr+hV64d+yvGXAGvXUsz8WneNoNNFIHzb8KtHAf2YLYuI1zEtetoS/d5DbBbTKxyuZiNjvRaDRTOzXYnGYxCHHdW5BFy4JmSCe7WPFGusgT1q2XP2S2oJ+14gtAgtliecgAEr5SIroN3GqpAGtS98CuYHcaVNJFnBpdHC+0/Zq/gv6wG5an+uVIVZ1WRPhgypBMEZNZ0qrO6kkp8MmPoR/L2rtuPxLX1u4cqGDo6ZGMAkggTO2oBmuL4rs3jrJGfC3xlOrC2XHPUMoIPOljJSDPE4tFh/Z/iCeIWy0a2XT1/fH4HXyq8cdw5WWG3P+dVb9m/Zy53v2m6r21tSqKVguxUgzOyqpb1JHQz0TF2gwIIrPmrkbfFTSplFGJZTKmtL/EGO5NTcUwBRjG1KWmkRrtE/wBrNatii1QBSeVTWcMSaIsibDKT6Uh7Z5c1sMk+Aw2ojXXX4ehgirbYthRRmG4utr+jZcy3D8LKCp2B1OkxOh3j1qyDp2Z8seUaOOZY9dY8tDrUTHQRp7+/zrs1zsrwzFIQto2HP79swRt+7JUjyP0qoYv9mWPDEWzauLBIYXMvzVtQT019avUkzBLHJCLFYu7dYNddrjhSSd8qgknNHhWM2sDmOteJftodVkEA59NAfIg9OnLnR+K7KY63Zy/Y7vi8TuEzGBskLJAElieZ9BNavs6kIwKlJ0ZYIkyQQdYmd+tGkV8Rwt1DdyK8ToLhnKGOo3OZVMxM+GegrfjfFb95bVq6gU2A1uQNSQYOeDGYEEH1PWltq1uGPiAkjQKo/tHr5e1Eq3hzZjBJGYgwSInUieY3qUkKLIE786wMIEc9zR11GALFAJPxTI8xtM+R+VRWcNmYAEdTPT19/M0w1m1sKAM6ggmNRJrzIFJK7TpO/pH6286OwmDQRcZwiCVUtoGOhEHfXUTEaUXi+HYy5lW3YuvbBDBraFlPPR4g+3vSq29A9in/AEa3n8x/Ksqx/wCr+N/9pf8A+Ef5VlNxYaYzTs612ybov27Vr4JuAozmVzEAk5RlEAae9VDEYtrYfDq5a0tySA0qxB8LCJA9R1M9K27UcdONvm7kyAhRkB0kTrG0maUJbYkKvPlSKIqQww7sYKJJY/D1nSB719CdjOy1vBWU8C98yKbjnU5o8QUnZZJ0EVwHgzd3etOY8N22xB2KhpefTKDNfTiYpSQAZzCVI2Iid/TWjaRYkExXlZNaMaNkKbxq6yXCATvTPs5jy+ZWOu4/P9etKO0zf0sH9TrQ/AbhF9ABvI1/hNZ4zpnTlFTxf4JOL4dLeJu3M4QGCWkCNNd/8qTN2tZle2jl1MjOTl02kDcjzJFJe3DZsdeVtCFUr6FRqPeaUcLeHUHzB+v51FGpWdXwvDhkgnLejqPA71sWlWROUMMrZpP73hUaRO560bcaqx2VxZ/q5OYSygFUDf2Gc+KCYMDp7GxY+8qILgINskgupkKQcpBJ1PikTHKqpxbZgyweLO4v30LOJIGGo+WtVq5Y1qyswcSpkdRSvFWoNKgzTXYtW1RFu2K3FvyqQJTpFVmprVbauwtsMy3JUg6rOUspYcwGUa8gTWwGtbW1BedPAConL8bgqokkQ2UsRyMEUwsuioYziLYXEtZJHdgyrFTKq4DhesD4Z9dNTFz4F2rUwpAEz+9IgbRp6elVHtlhVOJuKu6hF91RQec7Ab61Ur1tk8SEjkY/lVijZZPxpRgpdo+jMLxG3cgzrHJhPvBiveJ8Iw2KULftpdAMgkeIHyYeIfOuK8H7X3EIDnLr8QBI2gzrOvPU+1dP4Px9Lig5oOk++o18+vppzoW0ZJY0yo9pP2cXLINzCzdtyWZGKqyiZ1J0cATrv6zQeE7N3DYZGtq9uDcUgwUDEfEwlSYVeZ2+XXcNic3LWP1tVa7Tdi7eKRu4drDzJUMe6Y6zntgwCZPiEanUGi230zNkxv0cTxlru5CkOmYqHOuUg6j5CRyIMjy34Nw65irgtWfj1JMwFQfEztyUCJ68ulMMXgrmHuPYxFtlaIZN8wMhXQ7MQQGB5xG8ir9wTs79jw0Kua9iClskkSxksVHRAVA89TV0diRjY14F2VWwll1tW7jmId1Fxh93VgQmgnwxG3LW3XcJdjwx9BQPDcJesW7edC7DNmFmANTIzByMx2GYdKJwfGDcNwNbuWlTLGYQzE5s0DUQI3B58qDjssUmukR/ZsR93/m/zryie8T7l3/F/wDKvKPH9x/qy+EfL9hJny339vUmpLRIZdxJ5frmdKlwyAqJYEmTH3R1P66URZwTXCiIrOzQEVRLEnUaDmZomagjgXBsTiLoWwhe4AWPQAc2J0A6Dc6Rzr6T4ZgltWbdpfhRFUddABVa/Zz2YfBWbhvZe9usGYDXKqg5VnYxmY6feNXIig0OeVHFZJB1O9YWjekbDRUO0tsZ8x50Dww5byfxD66fnVr4hwi1cBzFhPRvyNIb/A7iQyP3mX2PUabGPKKz1s3QyxcOJQO3bf8A3FiTsqj2g/mTSuy0GRypr2+QjFh2BGdEYTyIkMPLUbedJQ/1FWno/wAOkljQ9sXijZ1MMCGU7wR+h86vXB+LpeHjK96QquHkh1G+RJgMdeXTeua2b5IAU+LWeeUdfU8vQ9Kl7zKukQPw2M+dFlvl+FDylrTXssHFuFNbJu2A9oHMSjsuZQDocqsTlPLmBuBS1eN3oh0S6Oo0b9e1EYXjjJ8ZVCLeRL62u9uWwY0gnxrp58pmjMdgLN1WuHMltbSt9rkFHMLJ7lYyGTroI13qv7mBZHh/8/IjfwxWe0ltRrauee2nzIqNu1Vvlaue5A/M1M/ALjrbNq5buC5GQd5lZxEki28xAkxOkGl47LYjMAWtqrXO7V2uiC2sgZdWIAMjTY0VQmReJ2mbDjl12CW7QDMYEyx67AfWDFWZb62LbguGbD6XWBYE3X1QZYyvbfQQSMvLnC/hHDLdpA1tg2Z7ti9ibn9GLa5WBNtWaD8MzrOk7xVe4zxM3QlpSxtWlAVmPiuFSf6RyNyZJGpiT1NGkzLxWaaUFpEF5+8LOx1Ylj/ETJPz/Kgr9sH3H1qQMdPM6Hrzg+denWnWjtRUZR4im9hRtW/D+IXsOwKMco5eUyaPdKHe1Usx5vCjLaOh9lu04uKqx4QQCNcykzEanyHT5Gr3axAjNtHtp59K4JwzEtZuBlJAJCsBGo9/P867BwfiMgZj4ogrvMaHxDSf5VXJUcfNi4OmMuPYS3iFtW3VS/eAq8a241ZlnYnQdPEDypFx3Fd2cMyyWtk31HLKDlgjeTmUDloab4jFrORrhTQuWGUFFXVjOo0JA1+9PKqHfxWZ7rMTm8C68gLYIAnl4tquwRlKVvoxT1o6w+Ke7bt3MMVZXKNJP7h+KP7UbUJiePLbxNvDuhl8sPIjxSAI0PxCKUfs0uOLFy0xlUeUB5K4zx/izfOhf2m2cpw9/UBWKkjUzo6QBuZVtKscVexP2Lv9mT7tZVI/16vf+yvfr2rKlIPFnBrdzLIHMf5j2kSesCu7fsj4VbGF+15R3l5jEgEoiE2lUNvqFk7STtXGOC8CxGLcph7TXCoBaCAACQslmIHP86+jOx3BmweDtWHbM6yzHkCzFyB5DNHtQFH5rw141BY7HpbUsTtrtSTkl2GMW3SCbqAjX1oQMXadYoLB8TN6SAQg0nqfKDrHWpruPS2CzGKonNMujjkvuD8YxNxRomgqtLxa4rST7UyxXai2TGUkUDiLdq8DlbIfSqzXji4xpoPTiyXFyXFVgdwwBB9jSrG9k8Hd1tzabkUPh/wHT20pdes3bWrDvF+8munUrv8AKa9w3FhEq1FSY8ZOLuLoqvE+G3cJdNu5Bz/A4HhYDRdeRnkdifQnddUI6g0f2x4gLlu2hOuYn0gRp7kfIdKU8NulhB3GhH689ferk7R6D8Oztx4yJbLEoOo/Kt7coQ9tzbYa6QQf4kPhb5V5hhofX8q9T86jOlkx48kakrQT/prELc7y4LNxyuRbtxIKDXQIpCxJPKTO+wGLx2+O7S3h8PltEskg3BmP7+YsDm1OnmfKgi2YhhshhfM7MfbYH1NbsoJkgHTmJPlrQo5v/W4pttLQDxC/fuEC+7MAS6hogFiSxAGkyTrQ6r1/XWmV2wDIgj0YjX0mPpS/E2WGhMgkDUDUSBoRHv70UNLA8Mfyx0RqmYbmDsBvHIk+f0r1Tv5GJ67EH3BravDv6j6jUfQn5URVDjUv5NWrRqlYVG9Qtl0DYhfCavfB8YO7Q6jRYInbLrqu5nXTmPKqLfarF2evP3Pdi27EEjQqAARALuxGX+HU/wBmi1ZwvxCk0y4G19oU2ZClgJuZs0BbiFgZ5Zc3M6T0qkYniLXrzjD2nusXJChWYlczBZyjTQjUnkKcXWKrD90qxDAIz6dJLKsf3TSe32+uoO7wwKqDIP8AR2gf7lu2unqasg2onIn3ovnZXhGPS07Xn7prlwMwWAQACoEw2+adBsuu9WA4ECC9x3I1zE6A7aM0n3BFcetdose8lr91ZEGLrkewzkCpLmLvXP627cuSZOYyJ9KXkrtjQxs679nbqf8Aiv8A91e1yHuz5/r3ryj9SJZxZ0b9j2Da3gWYoV7y6zgkfEMqqPOJU/lXQBXtQ3ngdKLdIx9gfEMaFU68j0/W1c4w2LfimIyKXGFtMTcadbh1AQEGMnOd4nyo/tnxPubbNOZycqASdWOmYSNNz7Ud2Jwot4S3pq8ux5knmayzk2rZshBJaLCiBVCqAFAgAaAAbRQHFeGteWAYij2ehsTjxaQsWiqrHSkuil4nhty20MPeh85QgTE/WnWM473mhGlAXHtuMrKCDyImmSLG37NUxDjnQ+JwaXPFEN95dD79fetzgx/s7kf2X8Q9jv8AOaDxeKe0pZ0JC7lPF5eo5bjSikAq/FbbLdcMcxUxI6QCNPf51mDYB1OsHQ6kfODrFDXsSbjM5gFjJA/XTSsQ1fWj0XjpcY2hwgAkQd+RI/AjpWMok/EP77D86hw9ydZ1jX/MVu7CaB0lGDXR6GG2wAiOnL8KkD0ODWysIqFkWvQQX/W1Q4vVD5SfkJrAB5b17dcZGmIII9SR9T6VBc1cHYJdSGIP61oe62ogE5SCSOXXzOhpkyB1HmBr5xr9dCKXPKqSNySfcmB+XyonPzq4quq/0esKhbepFXLpMgaifcH6ifeoWqCRnyjbGHBOGLec5iQFI2OsDVj5fugfxE8qteIdUWFAVRoFAgCqhwXjC4d3LKWVwAcsSIJI3Inc05w3EUvguqsqgkeKJ0A2En5TyNMnSPPeZyeRv0L+KXDc8MxOlVZLS23IYjTYkjXp9KsHF0Ld2JIGYZuROuXlpuVoP7KtsQg2Hz8z8+UVL0Y1Bt2eWMch2dfSaPsYtNyRpSzE2jlmQT0IGn/Lr70HguHi47gD4ROmw/WtTig85dUWX/SNv7yf4hWVU/stzoPlWUOKDyl8H1cxnQGPahcexCyJgdN/Wii3TU+tK+LklWBbLpHPU6c9vKlm7RngvzHJu2125c4gltj/AEeRWiBBMsN+cR9T1ro3CwFtWxyCL+Arl3aJ4x6u0eK2NZmYJ+XKrNhu0gVFXaFiqciujdjSSZeVE0PjsAlxCG2/CkS8fUiVM1Fju0ZZCqaGkURvehfiuGhSQjgxtS1zeX47ZI5MhzfNdx7TW64kk6mp0xZpkRg1jEg7Nr0Oh+R1FR8X4ktuzczEAspUTzJBERz0mjLl5H+IKfUUs7aYIHBWrmWBbuCf4WBA+oX2p4K2Ap2HdhoU2AOh6+RqZbq9Y8jp+NQnUg7fj86lgnTcHrofkND0q5s62KWSC07DMNcg9Qehox2/UGlQVfuj2EUSpBGmYejMPpNBnSx5ciW0ief/ABW5uAfEQPUx+NBNbEgy5A3GY6/XlRNvT4EHqQF+p8RqAXkZLqqJhfkgKCSZ1IIXTczz3Gg+dTIo+Iks22Yj8B+6KhWZljJAIAA6xO+p2Gtbl6BpxwlPc9/Bs9yDm2+9/P1A+Y9KDeCiaj938Y96la7AknQUEXMFMh1lk8QECdJ5ggmfcVKMvkzWOVfK6PHfxQQdonz3APrBqG84GpIAra5MGTJOpIEbbQOUGs4cM10ZkDuytkUzlZgjsoMEHVwBGnKKZI52XyJYou13v7C25cnYEjrFWXhDRhlBgAydTEknwnqYmT6Cq9fv2nDf0TWnEnRmZSRAIKv4lMnkx6EVYeHqRaSYPhAA2GwBJ1MxEdNoqTVI4+TN9TZ5jIeZmCpkzvGx+gg/yoRL86sp9gW9dtd+oojGvE+ZHX1P1pdZuHvBB0GnrO9BFalUg1whGmc/3G/EgAfOmnZzh4CFiILMxPzgD5AV6oXJMCaJwF8oADS8my9QV2MfsifdX5CsrT/SHpWUBqR15Nz+uQoDjf8AVP6D8aysovo58P1HE+2v/qk/g/lQ6bVlZVcjbEaYCiH3rKyl9hMrxOVZWVAnl6nXbT/8dd/gT/rWsrKsx9gOWtsPQfhUyVlZVh28H6SZthW1vf2rKyizYgizvU67e9ZWUBv7yRP51q/6+VZWUpuh0D4j4f76/jUeI/rP7p/6hXtZTI5Hl/1kCt+R/CtF3X+JPxFZWU0TD5vT+xNxT/0j/wD7F/8A67dOLPwj/wDn/wBNZWUchwodAOO/7vxNLcF8Q/iH4msrKRB9lisf1fzopdh+uVZWVWbF0eVlZWVCH//Z" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">VINGANÇA COM UMA GANGUE no GTA RP 😂...</a>
+                        <a href="#" class="video-channel-name">PAULINHO O LOKO</a>
+
+                        <div class="video-metadata">
+                            <span>2.4 mi visualizações</span>
+                            <span>há 2 dias</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+
+        </section>
+    </div>
+
+
+    <!--2 aba de Videos-->
+
+    <div class="videos">
+        <section class="videos-2-aba">
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="12:11">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/fFsprYx1xWg/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/AMLnZu_K3azk2QGqJh-C3YDMEr4OMclnUB_b2V_jpQQQ=s176-c-k-c0x00ffffff-no-rj-mo" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">CASIMIRO REAGE: VICTOR SARRO E JÚLIO COCIELO N...</a>
+                        <a href="#" class="video-channel-name">Cortes do Casimito [OFICIAL] </a>
+
+                        <div class="video-metadata">
+                            <span>1.4 mi visualizações</span>
+                            :
+                            <span>há 2 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="59:27">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/q7E4XrfGGnE/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/AMLnZu9bpLnR21UR8dFOD8Tj1ou7cOLOCFwdNwNk_aDBVQ=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">500 Anos em 1 Hora / História do Brasil</a>
+                        <a href="#" class="video-channel-name">Canal Nostalgia</a>
+
+                        <div class="video-metadata">
+                            <span>14 mi visualizações</span>
+                            :
+                            <span>há 5 anos</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="21:00">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/TFGOzWeV2vY/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/ytc/AMLnZu-fpy1Je_72JmPeexDiIFZrHes2Cx5ImUCdz4kauw=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">NÃO PODE RIR! TODOS contra ERICK JACQUIN! fea...</a>
+                        <a href="#" class="video-channel-name">Castros Brothers</a>
+
+                        <div class="video-metadata">
+                            <span>11 mi visualizações</span>
+                            <span>há 3 anos</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="5:00">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/XB-Vsp7gvYI/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/tTgKfMKgmrcMC5V-HZmFOb1s8AUbQP2q0nPMgd17eA8Jb8K5AY7l3h3FHNdqjuJ1BuD2xn70ROQ=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Gaúcho impressiona Doug Marcaida com técnicas...</a>
+                        <a href="#" class="video-channel-name">Canal History Brasil</a>
+
+                        <div class="video-metadata">
+                            <span>2,4 mi visualizações</span>
+                            <span>há 1 ano</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="24:10">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/f_V-C_DOBEY/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/Lh6PqK253-FuWHpUehSrzdGECAa9h0CyEVyWWND9TYhcaOIofruiJ37f-B4PYTlpltySu30J=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">CAÇADA GAMER PS4 DE 1TB NA FEIRA DO ROLO |...</a>
+                        <a href="#" class="video-channel-name">SDBOMBA</a>
+
+                        <div class="video-metadata">
+                            <span>910 mil visualizações</span>
+                            <span>há 7 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="6:53">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/NW6uyTH-3z0/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/ytc/AMLnZu-eI7UIMNeDm68djOM8IJFOpxaqERkXLcqPKAjp=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">HOGWARTS LEGACY estava ESCONDENDO como...</a>
+                        <a href="#" class="video-channel-name">Cortes do Davy Jones [OFICIAL]</a>
+
+                        <div class="video-metadata">
+                            <span>225 mil visualizações</span>
+                            <span>há 2 dias</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="14:41">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/KH8_71DVlW4/mqdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.googleusercontent.com/upNtt0koY7WfrycFn6OpUW4u1a6r2P2fbp6DujM__t44mVKpLQpygl0GkKYJY57TJaVpyVHSng=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">AMAZON BOX QUE CHEGOU ABSURDA | Edukof </a>
+                        <a href="#" class="video-channel-name">AM3NIC</a>
+
+                        <div class="video-metadata">
+                            <span>3165 mil visualizações</span>
+                            <span>há 2 dias</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+            
+            <article class="video-container">
+                <a href="#" class="thumbnail" data-duration="17:47">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/g_Cuwwa-ikU/maxresdefault.jpg" alt="">
+                </a>
+
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/TJn8pd2pAfCzoN9vW172eYEiHI4HNdFcvj1ca72NFfwmqI4nd7ySQu7U7NcQAKQd7Hs93EI0VWg=s900-c-k-c0x00ffffff-no-rj" alt="">
+                    </a>
+
+                    <div class="video-details">
+                        <a href="#" class="video-title">Um Corretor de Ações Rico Precisa Encontrar Uma Maneira...</a>
+                        <a href="#" class="video-channel-name">Resumindo Filmes</a>
+
+                        <div class="video-metadata">
+                            <span>353 mil visualizações</span>
+                            <span>há 5 meses</span>
+                        </div>
+                    </div>
+                </div>    
+            </article>
+
+            
+        </section>
+    </div>
+</body>
+</html>
