@@ -1,3 +1,1 @@
-# Youtube-Home
-
-https://github.com/MatheuspAraujo/Youtube-Home/issues/1#issue-1673090361
+[Captura de tela.pdf](https://github.com/MatheuspAraujo/Youtube-Home/files/11262012/Captura.de.tela.pdf)
